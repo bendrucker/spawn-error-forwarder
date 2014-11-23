@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '0.10'
+deploy:
+  provider: npm
+  email: bvdrucker@gmail.com
+  api_key:
+    secure: qkgd5Rkq+mlQItGm1pZYg3FNh17LE7ah09uNnSdHnYjvGcJJTWvrgcsEPclC0BT0VNiBbPLYfzdJxvLrnXTAFbsKjBSKftxvUbl7kWNpH55m1YFN3kmFIoAVufj4oLeJcLSBC6M70c6bBcZ5wcShKEV+QCAdSJ7DdA77yyPeHgs=
+  on:
+    tags: true
+    all_branches: true
+    repo: bendrucker/spawn-error-forwarder

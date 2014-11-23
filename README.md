@@ -1,4 +1,4 @@
-spawn-error-forwarder
+spawn-error-forwarder [![Build Status](https://travis-ci.org/bendrucker/spawn-error-forwarder.svg?branch=master)](https://travis-ci.org/bendrucker/spawn-error-forwarder)
 =====================
 
 Emit errors on stdout stream for a spawned child process. Useful for capturing errors from a spawned process when you want the output from stdout. 
