@@ -12,7 +12,7 @@ $ npm install spawn-error-forwarder
 
 #### `fwd(child [, errFactory]` -> `child`
 
-Buffers `child.stderr` output. If the spawned process exits with a code `> 0`, the buffered output of `child.stderr` is used to generate an error which is emitted on `child.stdout`. By default, the error message is the output of `child.stderr`. If you provide an `errFactory` function, it will be called with `code, stderr` where `code` is the child's exit code and `stderr` is string that contains the output of `child.stderr`. `errFactory` should return an `Error` to be emitted on `child.stdout`. 
+Buffers `child.stderr` output. If the spawned process exits with a code `> 0`, the buffered output of `child.stderr` is used to generate an error which is emitted on `child.stdout`. By default, the error message is the output of `child.stderr`. If you provide an `errFactory` function, it will be called with `code, stderr` where `code` is the child's exit code and `stderr` is a string that contains the output of `child.stderr`. `errFactory` should return an `Error` to be emitted on `child.stdout`. 
 
 ## Example
 
