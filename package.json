@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/bendrucker/spawn-error-forwarder",
   "devDependencies": {
-    "chai": "~1.10.0",
-    "mocha": "~2.0.1"
+    "chai": "~4.2.0",
+    "mocha": "~5.2.0"
   }
 }
